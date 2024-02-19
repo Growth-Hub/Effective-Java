@@ -72,7 +72,7 @@ public final class String
 ### ❗️추상 클래스로 만드는 것으로는 인스턴스화를 막을 수 없다.
 
 `org.springframework.util.StringUtils` 를 보면 유틸리티성 클래스임에도 불구하고 생성자가 public으로 열려있다.
-![alt text](image.png)
+![image](https://github.com/uhanuu/Effective-Java/assets/110734817/ab4cfb07-930f-477c-a035-4541d2f5399a)
 `추상클래스 + public 생성자` 인 경우
 
 - 하위 클래스를 만들어서 인스턴스화가 가능하다.
