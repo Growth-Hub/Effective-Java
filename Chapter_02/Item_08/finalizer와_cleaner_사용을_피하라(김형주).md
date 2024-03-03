@@ -1,4 +1,4 @@
-### 🧑‍💻 Finalizer 와 Cleaner
+## 🧑‍💻 Finalizer 와 Cleaner
 #### finalizer
 - 객체를 소멸시키는 역할로, Object 클래스에 포함된 메서드인 finalize()를 호출한다.
 - Heap 속 객체가 GC의 대상이 되었을때, 해당 객체의 finalizer를 실행하여 객체를 해제시킨다.
@@ -9,7 +9,7 @@
 - Overide해서 사용해야 하는 finalizer와 달리, 구성을 통해 cleaner을 사용한다. ( 주로inner class 구현한다. )
 - 하지만 대안으로 나온 Cleaner 또한, 성능의 이유로 불필요하다고 평가되고 있다.
 
-### 🤷‍♂️ 왜 Finalizer 와 Cleaner의 사용을 피하라고 할까?
+## 🤷‍♂️ 왜 Finalizer 와 Cleaner의 사용을 피하라고 할까?
 #### 1️⃣. **실행 시점을 정확히 특정할 수 없고, 실행 여부도 보장해주지 않는다.**
 ```java
 public class FinalizerTest {
@@ -151,7 +151,7 @@ void FinalizerAttack throws InterruptedException{
 첫번째. ```public class Account``` ➡️  ```public final class Account```
 두번쨰. Account 객체에서 finalize를 Overide해서 final 메서드로 만들기
 
-### 🤔  그렇다면 확실한 대안책은 무엇이고, Finalizer 와 Cleaner 언제 사용하는 걸까?
+## 🤔  그렇다면 확실한 대안책은 무엇이고, Finalizer 와 Cleaner 언제 사용하는 걸까?
 #### 1️⃣. AutoCloseable을 사용하자.
 - 위에서 언급했듯이, AutoCloseable는 try-with-resource문으로 관리되는 구현체의 close()를 자동 호출해주기 때문에 객체 해제를 보장해준다.
 ```java
@@ -189,7 +189,7 @@ JNI ( Java Native Interface )
 그래서 Finalizer 와 Cleaner가 그러한 객체들을 회수하는 역할로 적당하다.
 
 >하지만 Finalizer 와 Cleaner는 기본적으로 성능이 좋지 않기 때문에, 진짜 해당 방법밖에 없는지 심사숙고해서 사용해야한다.
-### ✍️ 정리하면
+## ✍️ 정리하면
 **웬만하면 Finalizer 와 Cleaner은 사용을 지양하자.**
 ### 📝 Reference
 [finalize 메소드 퇴역 이후](https://www.itworld.co.kr/news/224419)<br>
