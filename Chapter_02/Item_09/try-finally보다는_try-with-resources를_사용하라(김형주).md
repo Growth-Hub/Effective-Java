@@ -210,5 +210,8 @@ java.lang.Exception: process() 예외발생
 ## 👨‍⚖️ 결론
 #### 객체를 회수해야 할 때는 무조건 try-with-resources를 사용하자.
 
-
+###Reference
+[try-catch와 try-with-resources의 차이점 ](https://codechacha.com/ko/java-try-with-resources/)
+[try-with-resources](https://www.baeldung.com/java-try-with-resources)
+[getSuppressed](https://lsmman.tistory.com/51)
 
