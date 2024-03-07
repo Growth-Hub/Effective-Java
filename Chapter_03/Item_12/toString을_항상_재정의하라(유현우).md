@@ -39,7 +39,7 @@ System.out.println(book)
 
 - 우리가 방금 호출했을 때도 toString()이 호출된 것을 볼 수 있었다.
 
-`**java.io.PrintStream` println() 메서드만 확인해서 보면**
+**`java.io.PrintStream` println() 메서드만 확인해서 보면**
 
 ```java
 public void println(Object x) {
