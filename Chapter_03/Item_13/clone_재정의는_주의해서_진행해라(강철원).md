@@ -346,9 +346,17 @@ public Yum(Yum yum) {...};
 - `final` 클래스라면 성능 최적화 관점에서 검토후 문제가 없을때만 `Cloneable`을 구현합니다.
 - 객체의 복제 기능은 `Cloneable/clone` 방식보다 **복사 팩터리와 복사 생성자**를 이용하는것이 가장 좋습니다. 단, 배열같은 경우는 `clone`방식을 가장 적합하므로 예외로 
 
+#### 🤔 여담
+
+<img width="668" alt="image" src="https://github.com/Growth-Hub/Effective-Java/assets/76567238/941c18e7-5c11-4947-9ea7-f4606eadc916">
 
 
-### Reference
+<br>
+<br>
+
+---
+
+### 📚 Reference
 
 - [Clonse()](https://www.geeksforgeeks.org/clone-method-in-java-2/)
 - [# Java Object clone() Method - Cloning in Java](https://www.digitalocean.com/community/tutorials/java-clone-object-cloning-java)
