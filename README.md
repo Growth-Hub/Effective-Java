@@ -400,7 +400,7 @@
 ---
 <br>
 
-## **16주차** ( 5 / 25 ~ 6 / 1 )
+## **16주차** ( 5 / 25 ~ 5 / 31 )
 
 > | Item 40 | Item 41 |
 > | :-:| :-: |
@@ -416,3 +416,23 @@
 
 [📚 Item 41 정의하려는 것이 타입이라면 마커 인터페이스를 사용하라]: https://github.com/uhanuu/effective-java/blob/main/Chapter_06/Item_41/%EC%A0%95%EC%9D%98%ED%95%98%EB%A0%A4%EB%8A%94_%EA%B2%83%EC%9D%B4_%ED%83%80%EC%9E%85%EC%9D%B4%EB%9D%BC%EB%A9%B4_%EB%A7%88%EC%BB%A4_%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EB%A5%BC_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC(%EA%B9%80%ED%98%95%EC%A3%BC).md
 [🎥 Item 41 발표 영상]: https://youtu.be/cVifd4K_NSA
+
+---
+<br>
+
+## **17주차** ( 6 / 1 ~ 6 / 7 )
+
+> | Item 42 | Item 43 |
+> | :-:| :-: |
+> | 강철원 | 최준 |
+
+### 💎 발표자료
+<img width="500px" alt="item 42 썸네일" src="https://github.com/uhanuu/effective-java/assets/110734817/ea093f66-dfe3-46d9-8c50-c5f8e86c92b9"> | <img width="500px" alt="item 43 썸네일" src="https://github.com/uhanuu/effective-java/assets/110734817/2b4bcb94-f7f6-4a18-a507-51537ddb9ab5"> 
+| :---: | :---: |
+|[📚 Item 42 익명 클래스보다는 람다를 사용하라] <br> [🎥 Item 42 발표 영상] | [📚 Item 43 람다보다는 메서드 참조를 사용하라] <br> [🎥 Item 43 발표 영상]|
+
+[📚 Item 42 익명 클래스보다는 람다를 사용하라]: https://github.com/uhanuu/effective-java/blob/main/Chapter_07/Item_42/%EC%9D%B5%EB%AA%85_%ED%81%B4%EB%9E%98%EC%8A%A4%EB%B3%B4%EB%8B%A4%EB%8A%94_%EB%9E%8C%EB%8B%A4%EB%A5%BC_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC(%EA%B0%95%EC%B2%A0%EC%9B%90).md
+[🎥 Item 42 발표 영상]: https://youtu.be/FujuA-ewBFA
+
+[📚 Item 43 람다보다는 메서드 참조를 사용하라]: https://github.com/uhanuu/effective-java/blob/main/Chapter_07/Item_43/%EB%9E%8C%EB%8B%A4%EB%B3%B4%EB%8B%A4%EB%8A%94_%EB%A9%94%EC%84%9C%EB%93%9C_%EC%B0%B8%EC%A1%B0%EB%A5%BC_%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC(%EC%B5%9C%EC%A4%80).md
+[🎥 Item 43 발표 영상]: https://youtu.be/yQGfBLEYwTs
